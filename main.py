@@ -211,7 +211,6 @@ def main():
     display_images(gray_image, gray_results[:5], gray_titles[:5])
     display_images(rgb_image, rgb_results[:5], rgb_titles[:5])
     
-    print("Processing complete. Results saved in 'output' directory.")
 
 if __name__ == "__main__":
     main()
